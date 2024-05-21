@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype'), url(fontes/idroid.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+/* CONFIGURAÇÕES DE ESTILO ABAIXO  */
+
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+/* CABEÇALHO E BARRA DE NAVEGAÇÃO (NAV) */
+.cabecalho{
+    background-image: linear-gradient(to bottom, #51C886, #499D6F,  #226841, #194D30);
+    color: white;
+    text-align: center;
+    margin: -8px;
+    padding: 30px;
+    margin-bottom: 0px;
+    box-shadow: 1px 6px 20px 0px #00000073;
+}
+.cabecalho > p{
+    margin-bottom: 35px;
+    text-shadow: 3px 4px 4px #0f3725;
+}
+nav{
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: -23px;
+    margin-left: -20px;
+    
+}
+nav > a{
+    text-align: left;
+    color: #94DFB5;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+nav > a:hover{
+    
+    color: black;
+    background-color: #249356;
+    position: relative;
+    border-radius: 10px; 
+    margin: 10px;
+    padding: 5px;
+}
+
+/* CONFIRGURAÇÕES DO CORPO (MAIN CONTENT)*/
+
+body{
+    background-color: #E8E7C2;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+main{
+    margin: 0px;
+}
+
+.titulo {
+    text-shadow: 3px 4px 4px #0f3725;
+}
+/* Personalização do corpo */
+#principal{
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    margin-right: 110px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+
+    padding-top: 1px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 13%);
+}
+
+.titulo1{
+    font-family: 'idroid', sans-serif;
+    color: #115C2E;
+    font-size: 1.8rem;
+    text-shadow: 3px 3px 7px #0f37258f;
+}
+
+.subtitulo1{
+    font-family: 'idroid', sans-serif;
+    color: #0F3725;
+    font-size: 1.3rem;
+    background-image: linear-gradient(to right, #83E2B5, #ACEBC4, white);
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 3px 3px 7px #0f37258f;
+}
+.titulo2{
+    font-family: 'idroid', sans-serif;
+    color: #0F3725;
+    font-size: 1.3rem;
+    background-image: linear-gradient(to right, #83E2B5, #ACEBC4, white);
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow:3px 3px 20px #0f3725c2;
+}
+
+article > p {
+    text-indent: 2rem;
+    font-size: 1rem;
+}
+/* PERSONALZIANDO OS TEXTOS EM DESTAQUE*/
+.txt-destaque{
+    color: #115C2E;
+    font-weight: bold;
+}
+/* PERSONALIZANDO LINKS */
+.links{
+    background-color: #83E2B5;
+    color: #0F3725;
+    padding: 0px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.links:hover{
+    text-decoration: underline;
+}
+/* Centralizando imagens*/
+.img-center{
+    text-align: center;
+}
+/* editando os videos */
+.video{
+    text-align: center;
+    background-color: #1A5C38;
+    padding: 20px;
+}
+
+/* EDITANDO A BOX DE CONTEÚDO EXTRA */
+.extra-content{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px ;
+    padding-left: 10px;
+}
+
+.extra-title{
+    background-color:#2FA866;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: -9px;
+    margin-bottom: 0px;
+    margin-left: -9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 3px black;
+
+    
+}
+
+.lista{
+    columns: 2;
+    padding-bottom: 15px;
+    list-style-type: square;
+    text-align: justify;
+    
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.finalizacao{
+    text-indent: 20px;
+}
+
+/* RODAPÉ*/
+footer > p{
+    margin: 0px;
+    padding: 0px;
+}
+.rodape{
+    color: white;
+    text-align: center;
+    background-color: #1A5C38;
+
+    padding-top: 7px;
+    padding-right: 0px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom:0px;
+    margin-left: 0px;
+}
+.info{
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+picture > img{
+    width: 100%;
+}
